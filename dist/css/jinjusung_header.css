@@ -1,0 +1,415 @@
+/* font-family: 'Nanum Gothic', sans-serif; */
+
+@media (max-width: 768px) {
+    body {
+        background: red;
+    }
+}
+
+
+/* reset : 태그들이 가지고 있는 기본 속성과 값을 코딩하기 편한 값으로 변경 */
+
+body,
+h1,
+h2,
+h3,
+header,
+nav,
+section,
+aside,
+address,
+article,
+p,
+div,
+ul,
+li,
+dl,
+dt,
+dd,
+a {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "나눔고딕", "맑은 고딕", "굴림", sans-serif;
+    font-size: 13px;
+    line-height: 1.5;
+    min-width: 1200px;
+    /* background: url(bbbbb.png) rgba(255, 255, 255, 0.8) no-repeat; */
+    /* background: url(cluod_img/bbbbb.png) rgb(136, 102, 102); */
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    /* color: #ffffff; */
+    color: rgb(214, 214, 214);
+}
+
+
+/* #header_bar_background {
+    position: relative;
+    height: 88px;
+    
+    z-index: 100;
+} */
+
+.cccc {
+    width: 1200px;
+}
+
+header {
+    /* padding-top: 80px; */
+    position: relative;
+    background: #0c1221;
+    /* border-bottom: 1px solid #0c1221; */
+    height: 130px;
+    /* width: 1200px; */
+    z-index: 100;
+}
+
+
+/* header .asd {
+    width: ;
+} */
+
+.gnb {
+    position: relative;
+    width: 1200px;
+    margin: auto;
+    /* border: 1px solid blue;  */
+}
+
+
+/* .gnb * {
+    margin-top: 20px;
+} */
+
+.gnb h3 {
+    position: absolute;
+    text-indent: -9999px;
+    left: -9999px;
+    top: -9999px;
+    /* z-index: 100; */
+}
+
+.gnb ul {
+    font-size: 28px;
+    /* z-index: 100; */
+}
+
+.gnbcc_li {
+    /* margin-top: 40px; */
+}
+
+.gnbcc li {
+    height: 40px;
+    line-height: 40px;
+}
+
+
+/* .gnbcc a {
+    margin-top: 20px;
+} */
+
+.gnb ul li {
+    /* margin-top: 20px; */
+}
+
+.gnb ul li ul {
+    height: 160px;
+}
+
+.gnb ul li ul:hover {
+    /* height: 160px; */
+    background-color: rgb(199, 199, 199);
+    display: block;
+}
+
+.gnb ul li ul li a {
+    font-size: 20px;
+    /* margin-top: 20px; */
+    color: #000;
+}
+
+.gnb ul li ul li:hover {
+    text-decoration: 2px underline rgb(92, 92, 92);
+    padding: 0 5px;
+}
+
+.gnb>ul {
+    width: 1000px;
+    height: 130px;
+    line-height: 130px;
+    margin: auto;
+    /* margin-top: 26px; */
+    margin-left: 150px;
+    background: #0c1221;
+    /* border: 1px solid red; */
+}
+
+.gnb>ul>li {
+    /* font-size: 20px; */
+    /* font-family: "나눔고딕"; */
+    width: 200px;
+    height: 130px;
+    line-height: 130px;
+    float: left;
+    text-align: center;
+}
+
+.gnb>ul>li>a {
+    display: block;
+    height: 130px;
+    /* z-index: -100; */
+}
+
+.gnb ul ul {
+    display: none;
+    /* padding-top: 40px; */
+}
+
+.nav_bg {
+    width: 100%;
+    height: 160px;
+    background: rgba(238, 238, 238, 0.9);
+    display: none;
+}
+
+
+/* //////////////////////////////////////////////// */
+
+.jinjusung_logo {
+    position: absolute;
+    float: left;
+    width: 121px;
+    height: 71px;
+    /* line-height: 89px; */
+    /* margin-left: 150px; */
+    margin-right: 50px;
+    margin-top: 25px;
+    /* margin-bottom: -10px; */
+    background: url(cluod_img/header_logo.jpg) no-repeat;
+    text-indent: -9999px;
+    /* padding-top: 10px; */
+}
+
+.jinjusung_logo a {
+    display: block;
+    width: 121px;
+    height: 89px;
+    text-indent: -9999px;
+}
+
+.header_top_menu {
+    position: absolute;
+    width: 225px;
+    /* border: 1px solid red; */
+    right: 0;
+    top: 30px;
+}
+
+.header_top_menu * {
+    font-size: 13px;
+    font-family: serif;
+}
+
+.header_top_menu dl dt {
+    display: none;
+}
+
+.header_top_menu dl dd {
+    display: inline-block;
+}
+
+.language_menu {
+    position: relative;
+    display: inline;
+    /* display: none; */
+}
+
+
+/* .language_menu li {
+    right: 0px;
+    position: absolute;
+    width: 64px;
+    height: 20px;
+    border: 1px solid #c8c8c8;
+    box-sizing: border-box;
+    text-align: center;
+    color: #ffffff;
+} */
+
+.language_menu_1 {
+    width: 64px;
+    height: 20px;
+    margin-top: 5px;
+}
+
+.language_menu_2 {
+    width: 64px;
+    height: 20px;
+    margin-top: 25px;
+}
+
+.language_menu_3 {
+    width: 64px;
+    height: 20px;
+    margin-top: 45px;
+}
+
+.language_menu_4 {
+    width: 64px;
+    height: 20px;
+    margin-top: 65px;
+}
+
+.language_menu_1 a {
+    display: block;
+    margin-top: 0px;
+    width: 64px;
+    height: 20px;
+}
+
+.language_menu_2 a {
+    display: block;
+    padding-bottom: 20px;
+    width: 64px;
+    height: 20px;
+}
+
+.language_menu_3 a {
+    display: block;
+    padding-bottom: 60px;
+    width: 64px;
+    height: 20px;
+}
+
+.language_menu_4 a {
+    display: block;
+    padding-bottom: 60px;
+    width: 64px;
+    height: 20px;
+}
+
+.language_menu li a {
+    display: block;
+    width: 64px;
+    height: 20px;
+    color: #ffffff;
+    text-align: center;
+    line-height: 20px;
+}
+
+.site {
+    position: relative;
+    display: inline;
+}
+
+.site ul {
+    position: absolute;
+    right: 0px;
+}
+
+.site ul li {
+    float: left;
+    margin-left: 20px;
+}
+
+.sitemap_logo {
+    float: left;
+    width: 31px;
+    height: 28px;
+    background: url(cluod_img/sitemap_logo.jpg) no-repeat;
+    /* display: block; */
+    text-indent: -9999px;
+}
+
+.sitemap_logo a {
+    display: block;
+    width: 31px;
+    height: 28px;
+    text-indent: -9999px;
+}
+
+.sitemap {
+    float: left;
+    width: 64px;
+    height: 22px;
+    margin-right: 10px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    line-height: 24px;
+    border-radius: 4px;
+}
+
+.sitemap a {
+    display: block;
+    width: 64px;
+    height: 18px;
+    /* text-indent: -9999px; */
+}
+
+.language_logo {
+    float: left;
+    width: 31px;
+    height: 26px;
+    background: url(cluod_img/language.jpg) no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+
+.language_logo a {
+    display: block;
+    width: 31px;
+    height: 28px;
+    text-indent: -9999px;
+}
+
+.language_top {
+    position: absolute;
+    top: 4px;
+    width: 69px;
+    height: 24px;
+    background-color: #0c1221;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    color: rgb(214, 214, 214);
+    text-align: center;
+    padding-left: 4px;
+    /* line-height: 25px; */
+    /* outline: 0px ;
+    outline: none ; */
+    /* border: 1px solid red; */
+}
+
+.login {
+    display: inline-block;
+    width: 104px;
+    height: 22px;
+    margin-top: 10px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 23px;
+    border-radius: 4px;
+    margin-left: 1px;
+}
+
+.sign_up {
+    display: inline-block;
+    width: 104px;
+    height: 22px;
+    margin-top: 10px;
+    text-align: center;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    line-height: 23px;
+    border-radius: 4px;
+    margin-left: 7px;
+}
